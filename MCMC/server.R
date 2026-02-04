@@ -20,7 +20,7 @@ server <- function(input, output, session) {
     }
     
     # Caractères autorisés uniquement
-    if (!grepl("^[0-9x+\\-*/^(). ]+$", formula)) {
+    if (!grepl("^[0-9x+*/^()\\. a-zA-Z\\-]+$", formula)) {
       stop("Seules les opérations mathématiques de base sont autorisées.")
     }
     
@@ -41,6 +41,7 @@ server <- function(input, output, session) {
     
     formula
   })
+  
   
   safe_eval <- function(formula, x) {
     env <- new.env(parent = emptyenv())
