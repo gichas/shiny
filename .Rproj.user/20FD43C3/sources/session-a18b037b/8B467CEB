@@ -1,0 +1,26 @@
+{
+    "id": "8B467CEB",
+    "path": "D:/Cours/Master 2/EHESP/shiny/MCMC/server.R",
+    "project_path": "MCMC/server.R",
+    "type": "r_source",
+    "hash": "3545063470",
+    "contents": "",
+    "dirty": false,
+    "created": 1770208650945.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "206,2",
+        "scrollLine": "188"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1770220488,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1770220489008,
+    "read_only": false,
+    "read_only_alternatives": []
+}
