@@ -44,7 +44,7 @@ server <- function(input, output, session) {
   
   
   safe_eval <- function(formula, x) {
-    env <- new.env(parent = emptyenv())
+    env <- new.env(parent = baseenv())
     env$x <- x
     env$pi <- pi
     env$e <- exp(1)
